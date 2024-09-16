@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>Cross-view Geolocalization via Geometric layout Disentanglement | ICCLab [I-see-lab]</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Summary:
+The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.
+This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.
+Title: GeoDTR&#43;: Toward Generic Cross-View Geolocalization via Geometric Disentanglement
+DOI: 10.1109/tpami.2024.3443652">
+    <meta name="generator" content="Hugo 0.133.1">
+    
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+      <meta name="author" content = "Xingyu Li">
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+    
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="https://minlab-cognitive.github.io/posts/geodtr/">
+    
+
+    <meta property="og:url" content="https://minlab-cognitive.github.io/posts/geodtr/">
+  <meta property="og:site_name" content="ICCLab [I-see-lab]">
+  <meta property="og:title" content="Cross-view Geolocalization via Geometric layout Disentanglement">
+  <meta property="og:description" content="Summary: The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.
+This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.
+Title: GeoDTR&#43;: Toward Generic Cross-View Geolocalization via Geometric Disentanglement
+DOI: 10.1109/tpami.2024.3443652">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-09-12T12:40:10+08:00">
+    <meta property="article:modified_time" content="2024-09-12T12:40:10+08:00">
+
+  <meta itemprop="name" content="Cross-view Geolocalization via Geometric layout Disentanglement">
+  <meta itemprop="description" content="Summary: The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.
+This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.
+Title: GeoDTR&#43;: Toward Generic Cross-View Geolocalization via Geometric Disentanglement
+DOI: 10.1109/tpami.2024.3443652">
+  <meta itemprop="datePublished" content="2024-09-12T12:40:10+08:00">
+  <meta itemprop="dateModified" content="2024-09-12T12:40:10+08:00">
+  <meta itemprop="wordCount" content="206">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Cross-view Geolocalization via Geometric layout Disentanglement">
+  <meta name="twitter:description" content="Summary: The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.
+This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.
+Title: GeoDTR&#43;: Toward Generic Cross-View Geolocalization via Geometric Disentanglement
+DOI: 10.1109/tpami.2024.3443652">
+
+	
+
+  
+    
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)']]                  
+    }
+  };
+</script>
+
+
+
+  
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  <header class="cover bg-top" style="background-image: url('https://minlab-cognitive.github.io/images/works/geodtr-comb.jpg');">
+    <div class="bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        ICCLab [I-see-lab]
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about/" title="About Our Lab page">
+              About Our Lab
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/posts/" title="Featured Works page">
+              Featured Works
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+<div class="ananke-socials">
+  
+</div>
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <div class="f2 f1-l fw2 white-90 mb0 lh-title">Cross-view Geolocalization via Geometric layout Disentanglement</div>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Featured Works
+      </aside>
+      
+
+
+
+
+
+
+
+
+
+
+  <div id="sharing" class="mt3 ananke-socials">
+    
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">Cross-view Geolocalization via Geometric layout Disentanglement</h1>
+      
+      <p class="tracked">
+        By <strong>Xingyu Li</strong>
+      </p>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2024-09-12T12:40:10+08:00">September 12, 2024</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><p><strong>Summary</strong>:
+The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.</p>
+<p>This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.<br>
+<strong>Title</strong>: GeoDTR+: Toward Generic Cross-View Geolocalization via Geometric Disentanglement<br>
+<strong>DOI</strong>: <a href="https://doi.org/10.1109/tpami.2024.3443652" target="_blank">10.1109/tpami.2024.3443652</a></p>
+<h2 id="introduction">Introduction</h2>
+<p><figure><img src="/images/works/geodtr-intro.jpg" width="500">
+</figure>
+
+The Cross-view Geolocalization task: retrieve the location in a satellite map given a groud-view image.</p>
+<p><figure><img src="/images/works/geodtr-model.jpg" width="500">
+</figure>
+
+A siamese neural network that extracts discriminative features from images taken from various perspectives, with a focus on modeling the geometric layout in each image. Techniques such as contrastive learning, causal intervention and layout-semantic augmentation are exploited to improve the feature encoding.</p>
+<h2 id="highlights">Highlights</h2>
+<ul>
+<li>Explicitly modeling the geometric layout significantly enhances generalization (cross-area performance).</li>
+<li>Emphasizing challenging samples in contrastive learning improves feature quality.</li>
+<li>Augmentation via simulated layouts reduces overfitting to low-level features.</li>
+</ul><ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-dark-blue-80 bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://minlab-cognitive.github.io/" >
+    &copy;  ICCLab [I-see-lab] 2024 
+  </a>
+    <div>
+<div class="ananke-socials">
+  
+</div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
+
