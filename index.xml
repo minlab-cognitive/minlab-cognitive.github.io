@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>The Interpretable Cognitive Computation Lab on ICCLab [I-see-lab]</title>
+    <link>https://minlab-cognitive.github.io/</link>
+    <description>Recent content in The Interpretable Cognitive Computation Lab on ICCLab [I-see-lab]</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 13 Sep 2024 12:40:10 +0800</lastBuildDate>
+    <atom:link href="https://minlab-cognitive.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flexible cognitive control: entry of sequence working memory</title>
+      <link>https://minlab-cognitive.github.io/posts/entry-flexible-control/</link>
+      <pubDate>Fri, 13 Sep 2024 12:40:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/entry-flexible-control/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Chen et al. discovered the separable and generalizable subspaces for sensory and sequence working memory in macaque frontal neural states. The neural activities and their dynamics within these subspaces reflected the flexible control of sequence working memory in various sequence sorting tasks, predicting monkeys’ behavior in single trials.&lt;/p&gt;&#xA;&lt;p&gt;This work was published in Neuron in 2024.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Flexible control of sequence working memory in the macaque frontal cortex&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;a href=&#34;https://doi.org/10.1016/j.neuron.2024.07.024&#34; target=&#34;_blank&#34;&gt;10.1016/j.neuron.2024.07.024&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temporal weighting of sensory evidence</title>
+      <link>https://minlab-cognitive.github.io/posts/kernel/</link>
+      <pubDate>Mon, 09 Sep 2024 12:40:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/kernel/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;We introduced a rank-1 neural circuit model to account for diverse types of integration kernels in click-version perceptual decision making task. Equipped with data-driven optimization pipeline, the rank-1 model fits human behavior well, in a way comparable to the state-of-art divisive normalization models and leaky competitive accumulators. Furthermore, the rank-1 network gain insights at both colelctive and single neuron levels. At collective level, we propose alternative hypothesis of neural mechanisms underlying diverse types of integration kernels through collective dynamics compared with divisive models. At single neuron level, the rank-1 network exhibited heterogenous single neuron response kernels, resembling the diversity observed in neurophysical recordings, which can be explained by the combination of behavior and input kernels.&lt;/p&gt;&#xA;&lt;p&gt;This work is being submitted to xxx.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: A Simple Neural Circuit Model Explains Diverse Types of Integration Kernels in Perceptual Decision-Making&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
