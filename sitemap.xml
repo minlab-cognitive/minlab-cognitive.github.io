@@ -32,6 +32,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://minlab-cognitive.github.io/posts/selection-vector/</loc>
+    <lastmod>2024-09-09T12:40:10+08:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://minlab-cognitive.github.io/posts/kernel/</loc>
     <lastmod>2024-09-09T12:40:10+08:00</lastmod>
     <changefreq>monthly</changefreq>
