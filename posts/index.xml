@@ -6,49 +6,49 @@
     <description>Recent content in Featured Works on ICCLab [I-see-lab]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 13 Sep 2024 21:40:10 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2024 12:40:10 +0800</lastBuildDate>
     <atom:link href="https://minlab-cognitive.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Selection mechanism for flexible cognitive control</title>
+      <link>https://minlab-cognitive.github.io/posts/selection-vector/</link>
+      <pubDate>Wed, 18 Sep 2024 12:40:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/selection-vector/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Our research explores the neural mechanisms behind context-dependent decision-making (CDM) in humans and animals, focusing on discriminating between two selection mechanisms: input modulation and selection vector modulation. Using low-rank neural network modeling, we discovered that while input modulation is achievable with rank-one networks, additional dimensions are necessary for selection vector modulation. Through detailed information flow analysis, we revealed how these dimensions facilitate this modulation and identified new neural dynamical signatures at both neuron and population levels. Our findings offer a theoretical framework linking network connectivity and neural dynamics, advancing the understanding of circuit mechanisms in context-dependent computation.&lt;/p&gt;&#xA;&lt;p&gt;This work is being submitted to Nature Communication.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Elucidating the selection mechanisms in contextdependent computation through low-rank neural network modeling&lt;br&gt;&#xA;&lt;strong&gt;pdf available at&lt;/strong&gt; &lt;a href=&#34;https://doi.org/10.1101/2024.09.02.610896&#34; target=&#34;_blank&#34;&gt;&#xA;&lt;a href=&#34;https://doi.org/10.1101/2024.09.02.610896&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://doi.org/10.1101/2024.09.02.610896&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Temporal weighting of sensory evidence</title>
+      <link>https://minlab-cognitive.github.io/posts/kernel/</link>
+      <pubDate>Wed, 18 Sep 2024 11:40:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/kernel/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;We introduced a rank-1 neural circuit model to account for diverse types of integration kernels in click-version perceptual decision making task. Equipped with data-driven optimization pipeline, the rank-1 model fits human behavior well, in a way comparable to the state-of-art divisive normalization models and leaky competitive accumulators. Furthermore, the rank-1 network gain insights at both colelctive and single neuron levels. At collective level, we propose alternative hypothesis of neural mechanisms underlying diverse types of integration kernels through collective dynamics compared with divisive models. At single neuron level, the rank-1 network exhibited heterogenous single neuron response kernels, resembling the diversity observed in neurophysical recordings, which can be explained by the combination of behavior and input kernels.&lt;/p&gt;&#xA;&lt;p&gt;This work is being submitted to PLOS Computational Biology .&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: A Simple Neural Circuit Model Explains Diverse Types of Integration Kernels in Perceptual Decision-Making&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Flexible cognitive control: manipulating content in working memory</title>
       <link>https://minlab-cognitive.github.io/posts/switch/</link>
-      <pubDate>Fri, 13 Sep 2024 21:40:10 +0800</pubDate>
+      <pubDate>Tue, 17 Sep 2024 21:40:10 +0800</pubDate>
       <guid>https://minlab-cognitive.github.io/posts/switch/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Tian et al. investigated mental sorting using high-throughput electrophysiological recordings in the frontal cortex of macaque monkeys, memorizing and sorting spatial sequences in forward or backward orders according to visual cues. We discovered that items at each ordinal rank in WM were encoded in separate rank-WM subspaces and then, depending on cues, maintained or reordered between the subspaces, accompanied by two extra temporary subspaces in two operation steps. Furthermore, the cue activity served as an indexical signal to trigger sorting processes. Thus, we proposed a complete conceptual framework, where the neural landscape transitions in frontal neural states underlie the symbolic system for mental programming of sequence WM.&lt;/p&gt;&#xA;&lt;p&gt;This work was accepted for publication in Science in 2024.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Mental Programming of Spatial Sequences in Working Memory in Macaque Frontal Cortex&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;em&gt;[coming soon]&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
+      <title>Cross-view Geolocalization via Geometric layout Disentanglement</title>
+      <link>https://minlab-cognitive.github.io/posts/geodtr/</link>
+      <pubDate>Tue, 17 Sep 2024 13:40:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/geodtr/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.&lt;/p&gt;&#xA;&lt;p&gt;This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: GeoDTR+: Toward Generic Cross-View Geolocalization via Geometric Disentanglement&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;a href=&#34;https://doi.org/10.1109/tpami.2024.3443652&#34; target=&#34;_blank&#34;&gt;10.1109/tpami.2024.3443652&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Flexible cognitive control: entry of sequence working memory</title>
       <link>https://minlab-cognitive.github.io/posts/entry-flexible-control/</link>
-      <pubDate>Fri, 13 Sep 2024 12:40:10 +0800</pubDate>
+      <pubDate>Tue, 17 Sep 2024 12:40:10 +0800</pubDate>
       <guid>https://minlab-cognitive.github.io/posts/entry-flexible-control/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Chen et al. discovered the separable and generalizable subspaces for sensory and sequence working memory in macaque frontal neural states. The neural activities and their dynamics within these subspaces reflected the flexible control of sequence working memory in various sequence sorting tasks, predicting monkeys’ behavior in single trials.&lt;/p&gt;&#xA;&lt;p&gt;This work was published in Neuron in 2024.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Flexible control of sequence working memory in the macaque frontal cortex&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;a href=&#34;https://doi.org/10.1016/j.neuron.2024.07.024&#34; target=&#34;_blank&#34;&gt;10.1016/j.neuron.2024.07.024&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Geometry of sequence working memory</title>
       <link>https://minlab-cognitive.github.io/posts/sequence-wm/</link>
-      <pubDate>Fri, 13 Sep 2024 12:40:10 +0800</pubDate>
+      <pubDate>Mon, 16 Sep 2024 12:40:10 +0800</pubDate>
       <guid>https://minlab-cognitive.github.io/posts/sequence-wm/</guid>
       <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Xie et al. investigated the neural code underlying sequence working memory using two-photon calcium imaging to record thousands of neurons in the prefrontal cortex of macaque monkeys memorizing and then reproducing a sequence of locations after a delay. We discovered a regular geometrical organization: The high-dimensional neural state space during the delay could be decomposed into a sum of low-dimensional subspaces, each storing the spatial location at a given ordinal rank, which could be generalized to novel sequences and explain monkey behavior. The rank subspaces were distributed across large overlapping neural groups, and the integration of ordinal and spatial information occurred at the collective level rather than within single neurons. Thus, a simple representational geometry underlies sequence working memory.&lt;/p&gt;&#xA;&lt;p&gt;This work was published in Science in 2022.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Geometry of sequence working memory in macaque prefrontal cortex&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;a href=&#34;https://doi.org/10.1126/science.abm0204&#34; target=&#34;_blank&#34;&gt;10.1126/science.abm0204&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Cross-view Geolocalization via Geometric layout Disentanglement</title>
-      <link>https://minlab-cognitive.github.io/posts/geodtr/</link>
-      <pubDate>Thu, 12 Sep 2024 12:40:10 +0800</pubDate>
-      <guid>https://minlab-cognitive.github.io/posts/geodtr/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;The arrangement of objects provides clues for human to efficiently compare images from different view-angles while standard deep learning models focus naively on feature distances. Importantly, the correspondance between layouts of different views adheres to geometric constrains that are independent to the contents such as object textures. Based on this insight, we developed a network model with a dedicated pathway to capture the geometric layouts in the images. This layout modulates the raw features to facilitate efficient comparisons. Extensive experiments demonstrate the superiority of our model in generalizability across different areas.&lt;/p&gt;&#xA;&lt;p&gt;This work was published in IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) in 2024.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: GeoDTR+: Toward Generic Cross-View Geolocalization via Geometric Disentanglement&lt;br&gt;&#xA;&lt;strong&gt;DOI&lt;/strong&gt;: &lt;a href=&#34;https://doi.org/10.1109/tpami.2024.3443652&#34; target=&#34;_blank&#34;&gt;10.1109/tpami.2024.3443652&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Selection mechanism for flexible cognitive control</title>
-      <link>https://minlab-cognitive.github.io/posts/selection-vector/</link>
-      <pubDate>Mon, 09 Sep 2024 12:40:10 +0800</pubDate>
-      <guid>https://minlab-cognitive.github.io/posts/selection-vector/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Our research explores the neural mechanisms behind context-dependent decision-making (CDM) in humans and animals, focusing on discriminating between two selection mechanisms: input modulation and selection vector modulation. Using low-rank neural network modeling, we discovered that while input modulation is achievable with rank-one networks, additional dimensions are necessary for selection vector modulation. Through detailed information flow analysis, we revealed how these dimensions facilitate this modulation and identified new neural dynamical signatures at both neuron and population levels. Our findings offer a theoretical framework linking network connectivity and neural dynamics, advancing the understanding of circuit mechanisms in context-dependent computation.&lt;/p&gt;&#xA;&lt;p&gt;This work is being submitted to Nature Communication.&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: Elucidating the selection mechanisms in contextdependent computation through low-rank neural network modeling&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Temporal weighting of sensory evidence</title>
-      <link>https://minlab-cognitive.github.io/posts/kernel/</link>
-      <pubDate>Mon, 09 Sep 2024 12:40:10 +0800</pubDate>
-      <guid>https://minlab-cognitive.github.io/posts/kernel/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;We introduced a rank-1 neural circuit model to account for diverse types of integration kernels in click-version perceptual decision making task. Equipped with data-driven optimization pipeline, the rank-1 model fits human behavior well, in a way comparable to the state-of-art divisive normalization models and leaky competitive accumulators. Furthermore, the rank-1 network gain insights at both colelctive and single neuron levels. At collective level, we propose alternative hypothesis of neural mechanisms underlying diverse types of integration kernels through collective dynamics compared with divisive models. At single neuron level, the rank-1 network exhibited heterogenous single neuron response kernels, resembling the diversity observed in neurophysical recordings, which can be explained by the combination of behavior and input kernels.&lt;/p&gt;&#xA;&lt;p&gt;This work is being submitted to PLOS Computational Biology .&lt;br&gt;&#xA;&lt;strong&gt;Title&lt;/strong&gt;: A Simple Neural Circuit Model Explains Diverse Types of Integration Kernels in Perceptual Decision-Making&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
