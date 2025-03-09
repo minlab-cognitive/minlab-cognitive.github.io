@@ -6,8 +6,15 @@
     <description>Recent content in Featured Works on ICCLab [I-see-lab]</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 18 Sep 2024 12:40:10 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 10 Mar 2025 01:20:10 +0800</lastBuildDate>
     <atom:link href="https://minlab-cognitive.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Discovering Novel Circuit Mechanisms in Higher Cognition through Interpretable Recurrent Neural Network Training</title>
+      <link>https://minlab-cognitive.github.io/posts/rrnn/</link>
+      <pubDate>Mon, 10 Mar 2025 01:20:10 +0800</pubDate>
+      <guid>https://minlab-cognitive.github.io/posts/rrnn/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;:&#xA;Training recurrent neural networks (RNNs) has revolutionized the way how systems neuroscientists form hypothesis when studying circuit mechanisms in various problems. However, the trained RNNs oftentimes are difficult to be interpreted, inconsistent with neural data or not necessarily comprising the full set of biological solutions. Here, we developed an interpretable RNN training method, namely restricted-RNN, capable of systematically exploring the hypothesis space through flexibly imposing collective-level connectivity priors during training. We demonstrated the superiority of restricted-RNN over the conventional one in identifying interpretable data-compatible circuit mechanisms through a variety of macaque and rodent cognitive tasks. Critically, through systematic exploration, restricted-RNN also uncovered a novel circuit mechanism not only explaining the counter-intuitive firing rate reversal in macaque parietal cortex but also providing a unified account for the intriguing curved manifolds in a variety of cognitive tasks. The key predictions were confirmed in macaque electrophysiological datasets spanning from parietal cortex to prefrontal cortex.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;In preparation for submission.&lt;/strong&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;!-- **Title**: Mental Programming of Spatial Sequences in Working Memory in Macaque Frontal Cortex&lt;br&gt;&#xA;**DOI**: &lt;a href=&#34;https://doi.org/10.1126/science.adp6091&#34; target=&#34;_blank&#34;&gt;10.1126/science.adp6091&lt;/a&gt; --&gt;</description>
+    </item>
     <item>
       <title>Selection mechanism for flexible cognitive control</title>
       <link>https://minlab-cognitive.github.io/posts/selection-vector/</link>
